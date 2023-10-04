@@ -1,0 +1,149 @@
+.Store-Connect-page .Polaris-Columns{
+    min-height: 100vh;
+}
+.sc-secondary-col .sc-main{
+    background-image: url(../assets/storeConnectBg.png);
+    height: 100%;
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    background-size: cover;
+}
+.sc-secondary-col .sc-header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sc-header .sc-header-primary{
+    display: flex;
+}
+.sc-header .sc-header-primary .sc-header-text:first-child{
+    /* margin-right: 20px; */
+}
+.sc-header .sc-header-primary .sc-header-text{
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+}
+.sc-secondary-col .sc-content{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+}
+.sc-content .sc-card-content{
+    font-weight: 600;
+    font-size: 14px !important;
+    color: #666C8C;
+}
+.sc-card-content .Polaris-List{
+    padding-left: 1.25rem;
+}
+.sc-primary-col{
+    display: flex;
+    flex-grow: 1;
+    background: #fff;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sc-primary-col .sc-primary-header{
+    z-index: 9;
+    background-color: white;
+    top: 0;
+    display: flex;
+    padding: 90px 20px 20px;
+    position: sticky;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.sc-primary-header-tab:not(:first-child) {
+    margin-left: 80px;
+}
+
+.sc-primary-header-tab.activated:hover{
+    color: #787BD6;
+}
+
+.sc-tab-circle{
+    color: #B5B8CA;
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    font-size: 12px;
+    background: #ECEDF4;
+    text-align: center;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.sc-tab-circle.active{
+    color: #FFFFFF;
+    background: #B5B8CA;
+}
+.sc-tab-circle.activated{
+    color: #FFFFFF;
+    background: #61CEB4;
+}
+
+.sc-primary-header-tab:not(:first-child):before {
+    top: 50%;
+    left: -65px;
+    width: 50px;
+    height: 1px;
+    content: "";
+    display: block;
+    position: absolute;
+    transform: translateY(-50%);
+    background: #ECEDF4;
+}
+
+.sc-primary-header-tab{
+    color: #B5B8CA;
+    position: relative;
+}
+
+.sc-primary-header-tab.activated{
+    color: #2A2B31;
+    cursor: pointer;
+}
+
+.sc-primary-header-tab.active{
+    color: #2A2B31;
+}
+.sc-primary-content{
+    height: calc(100% - 178px);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;    
+}
+.sc-primary-content-main{
+    display: flex;
+}
+.sc-primary-content-form{
+    width: 571px;
+    position: relative;
+    z-index: 7;
+}
+.sc-primary-content-form-element:not(:last-child) {
+    margin-bottom: 25px;
+}
+.text-mark{
+    color: #61CEB4;
+}
+.sc-primary-content-stage-2{
+    height: auto;
+    display: flex;
+    max-height: calc(100vh - 270px);
+    overflow-y: scroll;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+.inside-suffix-clipboard .Polaris-Button{
+    padding: 1px 1px 0px 1px;
+}
